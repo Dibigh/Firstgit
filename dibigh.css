@@ -1,3 +1,202 @@
 
 /* adding a background color to navigation bar */
 
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: orange;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20;
+    padding-top: 0px;
+}
+.dibigh{
+    float:inline-end right;
+    padding-left: 70px;
+    margin: 20px;
+}
+.butt {
+    height: 8px;
+    width: 8px;
+    background-color: greenyellow;
+    border: 1px solid #eeb44f;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 8px;
+}
+
+.butt:hover {
+    background-color: pink;
+}
+
+.butt:active {
+    position: relative;
+    top: 1px;
+}
+
+.product-catalog {
+    display: flex;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.price {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color : green
+}
+a:link{
+    color:black
+}
+.searchbar{
+    
+}
